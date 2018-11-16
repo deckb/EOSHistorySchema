@@ -1,0 +1,310 @@
+{
+    "get_actions" : {
+        "request" : {
+            "account_name": "eosnewyorkio",
+            "pos": -1,
+            "offset": -1
+        },
+        "response" :{
+            "actions": [
+            {
+                "global_action_seq": 0,
+                "account_action_seq": 0,
+                "block_num": 0,
+                "block_time": "",
+                "action_trace": {
+                  "receipt": {
+                    "receiver": "",
+                    "act_digest": "",
+                    "global_sequence": 0,
+                    "recv_sequence": 0,
+                    "auth_sequence": [[
+                        "eosnewyorkio",
+                        0
+                      ]
+                    ],
+                    "code_sequence": 0,
+                    "abi_sequence": 0
+                  },
+                  "act": {
+                    "account": "",
+                    "name": "",
+                    "authorization": [{
+                        "actor": "",
+                        "permission": ""
+                      }
+                    ],
+                    "data": { },
+                    "hex_data": ""
+                  },
+                  "context_free": false,
+                  "elapsed": 0,
+                  "cpu_usage": 0,
+                  "console": "",
+                  "total_cpu_usage": 0,
+                  "trx_id": "",
+                  "block_num": 0,
+                  "block_time": "",
+                  "producer_block_id": "",
+                  "account_ram_deltas": [],
+                  "inline_traces": [{
+                      "receipt": {
+                        "receiver": "",
+                        "act_digest": "",
+                        "global_sequence": 0,
+                        "recv_sequence": 0,
+                        "auth_sequence": [[
+                            "",
+                            0
+                          ]
+                        ],
+                        "code_sequence": 0,
+                        "abi_sequence": 0
+                      },
+                      "act": {
+                        "account": "",
+                        "name": "",
+                        "authorization": [{
+                            "actor": "",
+                            "permission": ""
+                          }
+                        ],
+                        "data": {
+                          "from": "",
+                          "to": "",
+                          "quantity": "",
+                          "memo": ""
+                        },
+                        "hex_data": ""
+                      },
+                      "context_free": false,
+                      "elapsed": 6,
+                      "cpu_usage": 0,
+                      "console": "",
+                      "total_cpu_usage": 0,
+                      "trx_id": "",
+                      "block_num": 0,
+                      "block_time": "",
+                      "producer_block_id": "",
+                      "account_ram_deltas": [],
+                      "inline_traces": []
+                    },{
+                      "receipt": {
+                        "receiver": "",
+                        "act_digest": "",
+                        "global_sequence": 0,
+                        "recv_sequence": 0,
+                        "auth_sequence": [[
+                            "",
+                            0
+                          ]
+                        ],
+                        "code_sequence": 2,
+                        "abi_sequence": 2
+                      },
+                      "act": {
+                        "account": "",
+                        "name": "",
+                        "authorization": [{
+                            "actor": "",
+                            "permission": ""
+                          }
+                        ],
+                        "data": { },
+                        "hex_data": ""
+                      },
+                      "context_free": false,
+                      "elapsed": 11,
+                      "cpu_usage": 0,
+                      "console": "",
+                      "total_cpu_usage": 0,
+                      "trx_id": "",
+                      "block_num": 0,
+                      "block_time": "",
+                      "producer_block_id": "",
+                      "account_ram_deltas": [],
+                      "inline_traces": []
+                    }
+                  ]
+                }
+            }
+            ],
+            "last_irreversible_block": 0
+        }
+    },
+    "get_transaction" : {
+        "request" : {
+            "id": "",
+            "block_num_hint": 0
+        },
+        "response" :{
+            "id": "",
+            "trx": {
+                "receipt": {
+                "status": "",
+                "cpu_usage_us": 0,
+                "net_usage_words": 0,
+                "trx": [
+                    1,{
+                    "signatures": [ "" ],
+                    "compression": "",
+                    "packed_context_free_data": "",
+                    "packed_trx": ""
+                    }
+                ]
+                },
+                "trx": {
+                    "expiration": "",
+                    "ref_block_num": 0,
+                    "ref_block_prefix": 0,
+                    "max_net_usage_words": 0,
+                    "max_cpu_usage_ms": 0,
+                    "delay_sec": 0,
+                    "context_free_actions": [],
+                    "actions": [{
+                        "account": "",
+                        "name": "",
+                        "authorization": [{
+                            "actor": "",
+                            "permission": ""
+                            }
+                        ],
+                        "data": {  },
+                        "hex_data": ""
+                        }
+                    ],
+                    "transaction_extensions": [],
+                    "signatures": [
+                        ""
+                    ],
+                    "context_free_data": []
+                }
+            },
+            "block_time": "",
+            "block_num": 0,
+            "last_irreversible_block": 0,
+            "traces": [{
+                "receipt": {
+                    "receiver": "",
+                    "act_digest": "",
+                    "global_sequence": 0,
+                    "recv_sequence": 0,
+                    "auth_sequence": [[
+                        "",
+                        0
+                    ]],
+                    "code_sequence": 0,
+                    "abi_sequence": 0
+                },
+                "act": {
+                    "account": "",
+                    "name": "",
+                    "authorization": [{
+                        "actor": "",
+                        "permission": ""
+                    } ],
+                    "data": { },
+                    "hex_data": ""
+                },
+                "context_free": false,
+                "elapsed": 0,
+                "cpu_usage": 0,
+                "console": "",
+                "total_cpu_usage": 0,
+                "trx_id": "",
+                "block_num": 0,
+                "block_time": "",
+                "producer_block_id": "",
+                "account_ram_deltas": [],
+                "inline_traces": [{
+                    "receipt": {
+                        "receiver": "",
+                        "act_digest": "",
+                        "global_sequence": 0,
+                        "recv_sequence": 0,
+                        "auth_sequence": [[
+                            "",
+                            0
+                        ]],
+                        "code_sequence": 0,
+                        "abi_sequence": 0
+                    },
+                    "act": {
+                        "account": "",
+                        "name": "",
+                        "authorization": [{
+                            "actor": "",
+                            "permission": ""
+                        }
+                        ],
+                        "data": { },
+                        "hex_data": ""
+                    },
+                    "context_free": false,
+                    "elapsed": 0,
+                    "cpu_usage": 0,
+                    "console": "",
+                    "total_cpu_usage": 0,
+                    "trx_id": "",
+                    "block_num": 0,
+                    "block_time": "",
+                    "producer_block_id": "",
+                    "account_ram_deltas": [],
+                    "inline_traces": []
+                    },{
+                    "receipt": {
+                        "receiver": "",
+                        "act_digest": "",
+                        "global_sequence": 0,
+                        "recv_sequence": 0,
+                        "auth_sequence": [[
+                            "",
+                            0
+                        ]],
+                        "code_sequence": 0,
+                        "abi_sequence": 0
+                    },
+                    "act": {
+                        "account": "",
+                        "name": "",
+                        "authorization": [{
+                            "actor": "",
+                            "permission": ""
+                        }],
+                        "data": { },
+                        "hex_data": ""
+                    },
+                    "context_free": false,
+                    "elapsed": 0,
+                    "cpu_usage": 0,
+                    "console": "",
+                    "total_cpu_usage": 0,
+                    "trx_id": "",
+                    "block_num": 0,
+                    "block_time": "",
+                    "producer_block_id": "",
+                    "account_ram_deltas": [],
+                    "inline_traces": []
+                    }
+                ]
+                }
+            ]
+        }
+    },
+    "get_key_accounts" : {
+        "request" : {
+            "public_key" : ""
+        },
+        "response" :{
+            "account_names" : []
+        }
+    },
+    "get_controlled_accounts" : {
+        "request" : {
+            "controlling_account": ""
+        },
+        "response" :{
+            "controlled_accounts": []
+        }
+    }
+}
