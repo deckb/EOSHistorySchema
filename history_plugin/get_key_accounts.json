@@ -1,0 +1,10 @@
+{
+    "get_key_accounts" : {
+        "request" : {
+            "public_key" : ""
+        },
+        "response" :{
+            "account_names" : []
+        }
+    }
+}

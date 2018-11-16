@@ -1,0 +1,10 @@
+{
+    "get_controlled_accounts" : {
+        "request" : {
+            "controlling_account": ""
+        },
+        "response" :{
+            
+        }
+    }
+}
