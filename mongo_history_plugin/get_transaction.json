@@ -1,9 +1,9 @@
 {
-    "get_transaction" : {
-        "request" : {
+    "get_transaction": {
+        "request": {
             "id": ""
         },
-        "response" : {
+        "response": {
             "_id": "",
             "id": "",
             "block_num": 0,
@@ -25,7 +25,7 @@
                     "recv_sequence": 0,
                     "auth_sequence": [[
                         "",
-                        1848
+                        0
                     ]],
                     "code_sequence": 0,
                     "abi_sequence": 0
@@ -57,7 +57,7 @@
                         "recv_sequence": 0,
                         "auth_sequence": [[
                             "",
-                            1849
+                            0
                         ]],
                         "code_sequence": 0, 
                         "abi_sequence": 0
@@ -89,33 +89,34 @@
                         "global_sequence": 0,
                         "recv_sequence": 0,
                         "auth_sequence": [[
-                            "eosnewyorkio",
-                            1850
+                            "",
+                            0
                         ]],
                         "code_sequence": 0,
-                        "abi_sequence": 0},
-                        "act": {
-                            "account": "", 
-                            "name": "",
-                            "authorization": [{
-                                "actor": "",
-                                "permission": ""
-                            }],
-                            "data": { },
-                            "hex_data": ""
-                        },
-                        "context_free": false,
-                        "elapsed": 0, 
-                        "console": "",
-                        "trx_id": "",
-                        "block_num": 0,
-                        "block_time": "",
-                        "producer_block_id": "",
-                        "account_ram_deltas": [],
-                        "except":null,
-                        "inline_traces":[]
-                    }]
-                }],
+                        "abi_sequence": 0
+                    },
+                    "act": {
+                        "account": "", 
+                        "name": "",
+                        "authorization": [{
+                            "actor": "",
+                            "permission": ""
+                        }],
+                        "data": { },
+                        "hex_data": ""
+                    },
+                    "context_free": false,
+                    "elapsed": 0, 
+                    "console": "",
+                    "trx_id": "",
+                    "block_num": 0,
+                    "block_time": "",
+                    "producer_block_id": "",
+                    "account_ram_deltas": [],
+                    "except":null,
+                    "inline_traces":[]
+                }]
+            }],
             "except": null,
             "createdAt": ""
         }
