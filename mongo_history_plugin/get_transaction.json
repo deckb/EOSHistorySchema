@@ -3,8 +3,121 @@
         "request" : {
             "id": ""
         },
-        "response" :{
-            
+        "response" : {
+            "_id": "",
+            "id": "",
+            "block_num": 0,
+            "block_time": "",
+            "producer_block_id": "",
+            "receipt": {
+                "status": "",
+                "cpu_usage_us": 0,
+                "net_usage_words": 0
+            },
+            "elapsed": 0,
+            "net_usage": 0,
+            "scheduled": false,
+            "action_traces":[{
+                "receipt": {
+                    "receiver": "",
+                    "act_digest": "",
+                    "global_sequence": 0,
+                    "recv_sequence": 0,
+                    "auth_sequence": [[
+                        "",
+                        1848
+                    ]],
+                    "code_sequence": 0,
+                    "abi_sequence": 0
+                },
+                "act": {
+                    "account": "", 
+                    "name": "",
+                    "authorization": [{
+                        "actor": "",
+                        "permission":""
+                    }],
+                    "data": { },
+                    "hex_data": ""
+                },
+                "context_free": false,
+                "elapsed": 0,
+                "console": "",
+                "trx_id": "",
+                "block_num": 0,
+                "block_time": "",
+                "producer_block_id": "",
+                "account_ram_deltas": [],
+                "except": null,
+                "inline_traces": [{
+                    "receipt": {
+                        "receiver": "",
+                        "act_digest": "",
+                        "global_sequence": 0,
+                        "recv_sequence": 0,
+                        "auth_sequence": [[
+                            "",
+                            1849
+                        ]],
+                        "code_sequence": 0, 
+                        "abi_sequence": 0
+                    },
+                    "act": {
+                        "account": "",
+                        "name": "",
+                        "authorization": [{
+                            "actor": "",
+                            "permission": ""
+                        }],
+                        "data": { },
+                        "hex_data": ""
+                    },
+                    "context_free": false,
+                    "elapsed": 0,
+                    "console": "",
+                    "trx_id": "", 
+                    "block_num": 0,
+                    "block_time": "",
+                    "producer_block_id": "",
+                    "account_ram_deltas": [],
+                    "except": null,
+                    "inline_traces": []
+                    },{
+                    "receipt": {
+                        "receiver": "", 
+                        "act_digest": "",
+                        "global_sequence": 0,
+                        "recv_sequence": 0,
+                        "auth_sequence": [[
+                            "eosnewyorkio",
+                            1850
+                        ]],
+                        "code_sequence": 0,
+                        "abi_sequence": 0},
+                        "act": {
+                            "account": "", 
+                            "name": "",
+                            "authorization": [{
+                                "actor": "",
+                                "permission": ""
+                            }],
+                            "data": { },
+                            "hex_data": ""
+                        },
+                        "context_free": false,
+                        "elapsed": 0, 
+                        "console": "",
+                        "trx_id": "",
+                        "block_num": 0,
+                        "block_time": "",
+                        "producer_block_id": "",
+                        "account_ram_deltas": [],
+                        "except":null,
+                        "inline_traces":[]
+                    }]
+                }],
+            "except": null,
+            "createdAt": ""
         }
     }
 }
