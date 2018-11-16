@@ -1,9 +1,9 @@
 {
-    "get_controlled_accounts" : {
-        "request" : {
+    "get_controlled_accounts": {
+        "request": {
             "controlling_account": ""
         },
-        "response" :{
+        "response": {
             "controlled_accounts": []
         }
     }

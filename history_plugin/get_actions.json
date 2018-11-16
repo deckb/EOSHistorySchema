@@ -1,13 +1,12 @@
 {
-    "get_actions" : {
-        "request" : {
+    "get_actions": {
+        "request": {
             "account_name": "",
             "pos": -1,
             "offset": -1
         },
-        "response" :{
-            "actions": [
-            {
+        "response": {
+            "actions": [{
                 "global_action_seq": 0,
                 "account_action_seq": 0,
                 "block_num": 0,
@@ -19,7 +18,7 @@
                     "global_sequence": 0,
                     "recv_sequence": 0,
                     "auth_sequence": [[
-                        "eosnewyorkio",
+                        "",
                         0
                       ]
                     ],
@@ -69,16 +68,11 @@
                             "permission": ""
                           }
                         ],
-                        "data": {
-                          "from": "",
-                          "to": "",
-                          "quantity": "",
-                          "memo": ""
-                        },
+                        "data": { },
                         "hex_data": ""
                       },
                       "context_free": false,
-                      "elapsed": 6,
+                      "elapsed": 0,
                       "cpu_usage": 0,
                       "console": "",
                       "total_cpu_usage": 0,
@@ -99,8 +93,8 @@
                             0
                           ]
                         ],
-                        "code_sequence": 2,
-                        "abi_sequence": 2
+                        "code_sequence": 0,
+                        "abi_sequence": 0
                       },
                       "act": {
                         "account": "",
@@ -114,7 +108,7 @@
                         "hex_data": ""
                       },
                       "context_free": false,
-                      "elapsed": 11,
+                      "elapsed": 0,
                       "cpu_usage": 0,
                       "console": "",
                       "total_cpu_usage": 0,
